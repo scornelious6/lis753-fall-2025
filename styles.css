@@ -1,0 +1,38 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", 
+  Helvetica, Ariel, "Lucinda Grande", sans-serif;
+}
+
+h1 {
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  color: #210700;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+  background:#ffe5b4;
+}
+
+figure {
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
