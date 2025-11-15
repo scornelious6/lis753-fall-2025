@@ -3,7 +3,7 @@ body {
   Helvetica, Ariel, "Lucinda Grande", sans-serif;
 }
 
-h1 {
+h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
   margin-top: 0;
@@ -11,6 +11,10 @@ h1 {
   color: #210700;
   font-family: sans-serif;
   text-align: center;
+}
+
+h1#article-title {
+  font-size: 36px;
 }
 
 p {
