@@ -15,6 +15,7 @@ h1#site-title {
 
 h1#article-title {
   font-size: 36px;
+  align-items: ;
 }
 
 p {
@@ -34,8 +35,8 @@ figure img {
 }
 
 figure.main-image {
-  background: palevioletred;
-  border-color: mediumvioletred;
+  background: brown;
+  border-color: beige;
   color: whitesmoke;
 
 }
@@ -51,7 +52,7 @@ figure.section-image.odd {
 }
 
 figure.section-image.even {
-  float: left;
+  float: right;
   margin-right: 20px;
 }
 
