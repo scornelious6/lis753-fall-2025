@@ -33,6 +33,20 @@ figure img {
   height: auto;
 }
 
+figure.main-image {
+  background: beige;
+  border-color: brown;
+  color: whitesmoke;
+}
+
+figure.section-image {
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 32px;
+  max-width: 320px;
+
+}
+
 p img {
   float: right;
   max-width: 60%;
