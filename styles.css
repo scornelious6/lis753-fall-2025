@@ -26,7 +26,7 @@ figure {
 }
 
 figure img {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
 
@@ -35,4 +35,17 @@ p img {
   max-width: 60%;
   margin-left: 20px;
   margin-bottom: 32px;
+}
+
+a {
+  font-weight: bold;
+  color: green;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
 }
