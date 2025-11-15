@@ -3,6 +3,12 @@ body {
   Helvetica, Ariel, "Lucinda Grande", sans-serif;
 }
 
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
 h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
@@ -35,8 +41,8 @@ figure img {
 }
 
 figure.main-image {
-  background: brown;
-  border-color: beige;
+  background: rgb(143, 97, 97);
+  border-color: rgb(91, 62, 61);
   color: whitesmoke;
 
 }
