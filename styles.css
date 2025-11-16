@@ -29,21 +29,27 @@ p {
   margin-bottom: 1.25em;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 figure {
+  margin: 0;
   border: 1px solid black;
   padding: 12px;
   padding-bottom: 24px;
 }
 
 figure img {
-  width: 50%;
-  height: auto;
+  margin-bottom: 12px;
 }
 
 figure.main-image {
   background: rgb(143, 97, 97);
   border-color: rgb(91, 62, 61);
   color: whitesmoke;
+  margin-bottom: 32px;
 
 }
 
