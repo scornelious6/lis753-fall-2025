@@ -9,6 +9,12 @@ body {
   margin: 0 auto;
 }
 
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
+
 h1#site-title {
   font-size: 72px;
   letter-spacing: -3px;
@@ -46,16 +52,19 @@ figure img {
 }
 
 figure.main-image {
-  background: rgb(143, 97, 97);
-  border-color: rgb(91, 62, 61);
+  background: rgb(90, 47, 47);
+  border-color: rgb(24, 10, 10);
   color: whitesmoke;
   margin-bottom: 32px;
 
 }
 
-figure.section-image {
-  margin-bottom: 32px;
-  max-width: 320px;
+@media all and (min-width: 768px) {
+  figure.section-image {
+    max-width: 320px;
+    float: right;
+    margin: -20px -62px 32px 20px;
+  }
 }
 
 figure.section-image.odd {
@@ -73,6 +82,19 @@ p img {
   max-width: 60%;
   margin-left: 20px;
   margin-bottom: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media all and (min-width:376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
 }
 
 a {
