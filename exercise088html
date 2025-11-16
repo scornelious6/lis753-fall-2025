@@ -9,7 +9,7 @@
   <button onclick="darkMode()">Toggle dark mode</button>
   <div id="message">Welcome to my site. <button onclick="document.getElementById('message').classList.add('dismissed')">Dismiss</button></div>
   <h1 id="page-title">Hello, World!</h1>
-  <img src="https://placekitten.com/600/400" />
+  <img src="https://placecats.com/neo_banana/1200/600" />
   <p>
      <h2>Ivy by Taylor Swift</h2>
         <figure class="section-image odd">
