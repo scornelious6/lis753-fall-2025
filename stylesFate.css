@@ -52,8 +52,8 @@ figure img {
 }
 
 figure.main-image {
-  background: rgb(90, 47, 47);
-  border-color: rgb(24, 10, 10);
+  background: rgb(233, 105, 0);
+  border-color: rgb(255, 0, 0);
   color: whitesmoke;
   margin-bottom: 32px;
 
@@ -99,7 +99,7 @@ nav ul {
 
 a {
   font-weight: bold;
-  color: green;
+  color: rgb(231, 108, 7);
 }
 
 ul li a {
