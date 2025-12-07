@@ -1,0 +1,139 @@
+body {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", 
+  Helvetica, Ariel, "Lucinda Grande", sans-serif;
+}
+
+.container {
+  width: 96%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.small-container {
+  margin: 0 auto;
+  width: 92%;
+  max-width: 768px;
+}
+
+h1#site-title {
+  font-size: 72px;
+  letter-spacing: -3px;
+  margin-top: 0;
+  margin-bottom: .125em;
+  color: #210700;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1#article-title {
+  font-size: 36px;
+  align-items: ;
+}
+
+p {
+  line-height: 1.25;
+  margin-bottom: 1.25em;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figure {
+  margin: 0;
+  border: 1px solid black;
+  padding: 12px;
+  padding-bottom: 24px;
+}
+
+figure img {
+  margin-bottom: 12px;
+}
+
+figure.main-image {
+  background: rgb(90, 47, 47);
+  border-color: rgb(24, 10, 10);
+  color: whitesmoke;
+  margin-bottom: 32px;
+
+}
+
+@media all and (min-width: 768px) {
+  figure.section-image {
+    max-width: 320px;
+    float: right;
+    margin: -20px -62px 32px 20px;
+  }
+}
+
+figure.section-image.odd {
+  float: right;
+  margin-left: 20px;
+}
+
+figure.section-image.even {
+  float: right;
+  margin-right: 20px;
+}
+
+p img {
+  float: right;
+  max-width: 60%;
+  margin-left: 20px;
+  margin-bottom: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+@media all and (min-width:376px) {
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+a {
+  font-weight: bold;
+  color: green;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+body.dark-mode {
+  background: #010101;
+  color: #ffffff;
+}
+
+body.dark-mode button {
+  background-color: #ffffff;
+}
+
+#message {
+  background: #E9FFE4;
+  border: 1px solid #178201;
+  padding: 20px 40px;
+  margin: 12px 0;
+  border-radius: 4px;
+  opacity: 1;
+  transition: opacity .2s ease;
+}
+
+#message.dismissed {
+  opacity: 0;
+  height: 0;
+}
+
+#message button {
+  float: right;
+}
