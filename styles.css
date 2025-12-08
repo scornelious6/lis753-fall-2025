@@ -120,6 +120,10 @@ body.dark-mode button {
   background-color: #ffffff;
 }
 
+ body {
+        background-color: #f17a0a; /* Replace with your desired color code */
+    }
+
 #message {
   background: #E9FFE4;
   border: 1px solid #178201;
